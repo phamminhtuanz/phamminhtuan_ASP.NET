@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7C321-617D-407D-90E3-DDD8D708A8C6}|SS01A\\SS01A.csproj|c:\\users\\minh tuan\\source\\repos\\ss01\\ss01a\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD7C321-617D-407D-90E3-DDD8D708A8C6}|SS01A\\SS01A.csproj|solutionrelative:ss01a\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7C321-617D-407D-90E3-DDD8D708A8C6}|SS01A\\SS01A.csproj|c:\\users\\minh tuan\\source\\repos\\ss01\\ss01a\\views\\dome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD7C321-617D-407D-90E3-DDD8D708A8C6}|SS01A\\SS01A.csproj|solutionrelative:ss01a\\views\\dome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7C321-617D-407D-90E3-DDD8D708A8C6}|SS01A\\SS01A.csproj|c:\\users\\minh tuan\\source\\repos\\ss01\\ss01a\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDD7C321-617D-407D-90E3-DDD8D708A8C6}|SS01A\\SS01A.csproj|solutionrelative:ss01a\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7C321-617D-407D-90E3-DDD8D708A8C6}|SS01A\\SS01A.csproj|c:\\users\\minh tuan\\source\\repos\\ss01\\ss01a\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD7C321-617D-407D-90E3-DDD8D708A8C6}|SS01A\\SS01A.csproj|solutionrelative:ss01a\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7C321-617D-407D-90E3-DDD8D708A8C6}|SS01A\\SS01A.csproj|c:\\users\\minh tuan\\source\\repos\\ss01\\ss01a\\controllers\\domecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD7C321-617D-407D-90E3-DDD8D708A8C6}|SS01A\\SS01A.csproj|solutionrelative:ss01a\\controllers\\domecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\SS01A\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SS01A\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\SS01A\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SS01A\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:55:31.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\SS01A\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SS01A\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\SS01A\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SS01A\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T01:55:24.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\SS01A\\Views\\Dome\\Index.cshtml",
+              "RelativeDocumentMoniker": "SS01A\\Views\\Dome\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\SS01A\\Views\\Dome\\Index.cshtml",
+              "RelativeToolTip": "SS01A\\Views\\Dome\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T01:54:38.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\SS01A\\Controllers\\DomeController.cs",
+              "RelativeDocumentMoniker": "SS01A\\Controllers\\DomeController.cs",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\SS01A\\Controllers\\DomeController.cs",
+              "RelativeToolTip": "SS01A\\Controllers\\DomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:53:49.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\SS01A\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SS01A\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS01\\SS01A\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SS01A\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T01:41:28.219Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

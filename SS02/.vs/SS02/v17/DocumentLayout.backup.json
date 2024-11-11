@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Minh Tuan\\source\\repos\\SS02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41AA4716-505C-46A0-9B6F-AC2D068EA6EE}|SS02\\SS02.csproj|c:\\users\\minh tuan\\source\\repos\\ss02\\ss02\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41AA4716-505C-46A0-9B6F-AC2D068EA6EE}|SS02\\SS02.csproj|solutionrelative:ss02\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AA4716-505C-46A0-9B6F-AC2D068EA6EE}|SS02\\SS02.csproj|c:\\users\\minh tuan\\source\\repos\\ss02\\ss02\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AA4716-505C-46A0-9B6F-AC2D068EA6EE}|SS02\\SS02.csproj|solutionrelative:ss02\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AA4716-505C-46A0-9B6F-AC2D068EA6EE}|SS02\\SS02.csproj|c:\\users\\minh tuan\\source\\repos\\ss02\\ss02\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41AA4716-505C-46A0-9B6F-AC2D068EA6EE}|SS02\\SS02.csproj|solutionrelative:ss02\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41AA4716-505C-46A0-9B6F-AC2D068EA6EE}|SS02\\SS02.csproj|c:\\users\\minh tuan\\source\\repos\\ss02\\ss02\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41AA4716-505C-46A0-9B6F-AC2D068EA6EE}|SS02\\SS02.csproj|solutionrelative:ss02\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS02\\SS02\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "SS02\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS02\\SS02\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "SS02\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T04:07:31.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS02\\SS02\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "SS02\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS02\\SS02\\Models\\Account.cs*",
+              "RelativeToolTip": "SS02\\Models\\Account.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T03:05:23.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS02\\SS02\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "SS02\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS02\\SS02\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "SS02\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T03:00:08.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS02\\SS02\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SS02\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS02\\SS02\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "SS02\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T02:59:42.052Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
