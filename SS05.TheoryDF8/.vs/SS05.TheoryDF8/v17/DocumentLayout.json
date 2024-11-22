@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|c:\\users\\minh tuan\\source\\repos\\ss05.theorydf8\\ss05.theorydf8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|solutionrelative:ss05.theorydf8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|c:\\users\\minh tuan\\source\\repos\\ss05.theorydf8\\ss05.theorydf8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|solutionrelative:ss05.theorydf8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|c:\\users\\minh tuan\\source\\repos\\ss05.theorydf8\\ss05.theorydf8\\models\\bookmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|solutionrelative:ss05.theorydf8\\models\\bookmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|c:\\users\\minh tuan\\source\\repos\\ss05.theorydf8\\ss05.theorydf8\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|solutionrelative:ss05.theorydf8\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|c:\\users\\minh tuan\\source\\repos\\ss05.theorydf8\\ss05.theorydf8\\models\\publishers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|solutionrelative:ss05.theorydf8\\models\\publishers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|c:\\users\\minh tuan\\source\\repos\\ss05.theorydf8\\ss05.theorydf8\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B432C9-C55D-464E-93F6-4F43DFFAA8A3}|SS05.TheoryDF8\\SS05.TheoryDF8.csproj|solutionrelative:ss05.theorydf8\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\Program.cs",
+              "RelativeDocumentMoniker": "SS05.TheoryDF8\\Program.cs",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\Program.cs*",
+              "RelativeToolTip": "SS05.TheoryDF8\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:30:23.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\appsettings.json",
+              "RelativeDocumentMoniker": "SS05.TheoryDF8\\appsettings.json",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\appsettings.json",
+              "RelativeToolTip": "SS05.TheoryDF8\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T02:46:54.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "SS05.TheoryDF8\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\Models\\Category.cs",
+              "RelativeToolTip": "SS05.TheoryDF8\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:29:12.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Publishers.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\Models\\Publishers.cs",
+              "RelativeDocumentMoniker": "SS05.TheoryDF8\\Models\\Publishers.cs",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\Models\\Publishers.cs",
+              "RelativeToolTip": "SS05.TheoryDF8\\Models\\Publishers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:28:52.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\Models\\BookManagementContext.cs",
+              "RelativeDocumentMoniker": "SS05.TheoryDF8\\Models\\BookManagementContext.cs",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\Models\\BookManagementContext.cs",
+              "RelativeToolTip": "SS05.TheoryDF8\\Models\\BookManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:29:40.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "SS05.TheoryDF8\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS05.TheoryDF8\\SS05.TheoryDF8\\Models\\Book.cs",
+              "RelativeToolTip": "SS05.TheoryDF8\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:27:17.985Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Minh Tuan\\source\\repos\\SS05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F7DC6E3-E4E5-416F-B386-7AA82E614B8C}|SS05\\SS05.csproj|c:\\users\\minh tuan\\source\\repos\\ss05\\ss05\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F7DC6E3-E4E5-416F-B386-7AA82E614B8C}|SS05\\SS05.csproj|solutionrelative:ss05\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Minh Tuan\\source\\repos\\SS05\\SS05\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SS05\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Minh Tuan\\source\\repos\\SS05\\SS05\\appsettings.Development.json",
+              "RelativeToolTip": "SS05\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T01:52:32.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
