@@ -1,0 +1,116 @@
+﻿@model IEnumerable<Devxuongmoc.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admins/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3>Danh sách các loại sản phẩm</h3>
+
+<div class="row">
+    <form action="" method="get" class="form-inline">
+        <div class="form-group">
+            <label class="sr-only" for="keyword">Tìm theo tên loại</label>
+            <input class="form-control" name="name" id="keyword" placeholder="Nhập tên cần tìm"/>
+        </div>
+        <button type="submit" class="btn btn-default mr-1"><i class="fas fa-search"></i></button>
+        <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i>Thêm mới</a>
+    </form>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Icon)
+            </th> 
+            @* <th>
+                @Html.DisplayNameFor(model => model.MetaKeyword)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.MetaDescription)
+            </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.Slug)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.Orders)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th> 
+            @* <th>
+                @Html.DisplayNameFor(model => model.UpdatedDate)
+            </th> *@
+         
+            @* <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.Isdelete)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.Icon))
+                    {
+                        <img src="/images/danh-muc/@item.Icon" alt="Icon" class="img-thumbnail" style="width: 50px; height: 50px;" />
+                    }
+                    else
+                    {
+                        <span>Không có hình ảnh</span>
+                    }
+                </td>
+
+
+            @* <td>
+                @Html.DisplayFor(modelItem => item.MetaKeyword)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.MetaDescription)
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.Slug)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.Orders)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.UpdatedDate)
+            </td> *@
+        
+            @* <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.Isdelete)
+            </td>
+                <td>
+                    <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                    <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.Id">
+                        <i class="fas fa-eye"></i>
+                    </a>
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
