@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Minh Tuan\\source\\repos\\SS08\\SS08\\SS08.csproj": {}
+    "C:\\Users\\Minh Tuan\\Documents\\GitHub\\phamminhtuan_ASP.NET\\SS08\\SS08\\SS08.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Minh Tuan\\source\\repos\\SS08\\SS08\\SS08.csproj": {
+    "C:\\Users\\Minh Tuan\\Documents\\GitHub\\phamminhtuan_ASP.NET\\SS08\\SS08\\SS08.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Minh Tuan\\source\\repos\\SS08\\SS08\\SS08.csproj",
+        "projectUniqueName": "C:\\Users\\Minh Tuan\\Documents\\GitHub\\phamminhtuan_ASP.NET\\SS08\\SS08\\SS08.csproj",
         "projectName": "SS08",
-        "projectPath": "C:\\Users\\Minh Tuan\\source\\repos\\SS08\\SS08\\SS08.csproj",
+        "projectPath": "C:\\Users\\Minh Tuan\\Documents\\GitHub\\phamminhtuan_ASP.NET\\SS08\\SS08\\SS08.csproj",
         "packagesPath": "C:\\Users\\Minh Tuan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Minh Tuan\\source\\repos\\SS08\\SS08\\obj\\",
+        "outputPath": "C:\\Users\\Minh Tuan\\Documents\\GitHub\\phamminhtuan_ASP.NET\\SS08\\SS08\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Minh Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",

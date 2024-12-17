@@ -1,4 +1,7 @@
-﻿@model IEnumerable<Devxuongmoc.Models.Category>
+﻿@model X.PagedList.IPagedList<Devxuongmoc.Models.Category>
+@using X.PagedList.Mvc.Core
+@using X.PagedList
+@using X.PagedList.Web.Common
 
 @{
     ViewData["Title"] = "Index";
@@ -21,26 +24,26 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Title)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Title)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Icon)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Icon)
             </th> 
             @* <th>
                 @Html.DisplayNameFor(model => model.MetaKeyword)
             </th> *@
             <th>
-                @Html.DisplayNameFor(model => model.MetaDescription)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().MetaDescription)
             </th>
             @* <th>
                 @Html.DisplayNameFor(model => model.Slug)
             </th> *@
             <th>
-                @Html.DisplayNameFor(model => model.Orders)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Orders)
             </th>
             
             <th>
-                @Html.DisplayNameFor(model => model.CreatedDate)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().CreatedDate)
             </th> 
             @* <th>
                 @Html.DisplayNameFor(model => model.UpdatedDate)
@@ -50,7 +53,7 @@
                 @Html.DisplayNameFor(model => model.Status)
             </th> *@
             <th>
-                @Html.DisplayNameFor(model => model.Isdelete)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Isdelete)
             </th>
             <th></th>
         </tr>
@@ -111,6 +114,17 @@
                     </a>
                 </td>
         </tr>
-}
+    }
     </tbody>
 </table>
+
+<!-- Phân trang -->
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }), new
+        PagedListRenderOptions
+{
+
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" }
+})
+</div>
+</html>

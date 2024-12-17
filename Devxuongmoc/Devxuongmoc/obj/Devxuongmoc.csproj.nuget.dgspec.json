@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Minh Tuan\\source\\repos\\Devxuongmoc\\Devxuongmoc\\Devxuongmoc.csproj": {}
+    "C:\\Users\\Minh Tuan\\Documents\\GitHub\\phamminhtuan_ASP.NET\\Devxuongmoc\\Devxuongmoc\\Devxuongmoc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Minh Tuan\\source\\repos\\Devxuongmoc\\Devxuongmoc\\Devxuongmoc.csproj": {
+    "C:\\Users\\Minh Tuan\\Documents\\GitHub\\phamminhtuan_ASP.NET\\Devxuongmoc\\Devxuongmoc\\Devxuongmoc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Minh Tuan\\source\\repos\\Devxuongmoc\\Devxuongmoc\\Devxuongmoc.csproj",
+        "projectUniqueName": "C:\\Users\\Minh Tuan\\Documents\\GitHub\\phamminhtuan_ASP.NET\\Devxuongmoc\\Devxuongmoc\\Devxuongmoc.csproj",
         "projectName": "Devxuongmoc",
-        "projectPath": "C:\\Users\\Minh Tuan\\source\\repos\\Devxuongmoc\\Devxuongmoc\\Devxuongmoc.csproj",
+        "projectPath": "C:\\Users\\Minh Tuan\\Documents\\GitHub\\phamminhtuan_ASP.NET\\Devxuongmoc\\Devxuongmoc\\Devxuongmoc.csproj",
         "packagesPath": "C:\\Users\\Minh Tuan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Minh Tuan\\source\\repos\\Devxuongmoc\\Devxuongmoc\\obj\\",
+        "outputPath": "C:\\Users\\Minh Tuan\\Documents\\GitHub\\phamminhtuan_ASP.NET\\Devxuongmoc\\Devxuongmoc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Minh Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,6 +69,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[8.4.7, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.4.7, )"
             }
           },
           "imports": [

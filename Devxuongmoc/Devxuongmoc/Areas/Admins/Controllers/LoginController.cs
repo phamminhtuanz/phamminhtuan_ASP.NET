@@ -1,5 +1,6 @@
 ﻿using Devxuongmoc.Areas.Admins.Models;
 using Devxuongmoc.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Runtime.Intrinsics.Arm;
 using System.Security.Cryptography;
@@ -11,13 +12,11 @@ namespace Devxuongmoc.Areas.Admins.Controllers
     public class LoginController : Controller
     {
         public XuongMocContext _context;
-
         public LoginController(XuongMocContext context)
         {
             _context = context;
         }
-
-        [HttpGet]// get, hiển thị form để nhập dữ liệu
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
@@ -27,20 +26,22 @@ namespace Devxuongmoc.Areas.Admins.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View(model);// trả về trạng thái lỗi
+                ModelState.AddModelError(string.Empty, "Thông tin đăng nhập không hợp lệ.");
+                return View(model);
             }
-            // sẽ xử lý logic phần đăng nhập tại đây
+
             var pass = model.Password;
-            var dataLogin = _context.AdminUsers.Where(x => x.Email.Equals(model.Email) && x.Password.Equals(pass)).FirstOrDefault();
+            var dataLogin = _context.AdminUsers.FirstOrDefault(x => x.Email.Equals(model.Email) && x.Password.Equals(pass));
             if (dataLogin != null)
             {
-                // Lưu session khi đăng nhập thành công
                 HttpContext.Session.SetString("AdminLogin", model.Email);
-
-
                 return RedirectToAction("Index", "Dashboard");
             }
-            return View(model);
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Thông tin đăng nhập không chính xác.");
+                return View(model);
+            }
 
         }
         [HttpGet]// thoát đăng nhập, huỷ session
