@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace DevXuongMoc.Controllers
+namespace Devxuongmoc.Controllers
 {
     public class AboutusController : Controller
     {

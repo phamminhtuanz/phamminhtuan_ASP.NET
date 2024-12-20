@@ -1,16 +1,16 @@
-﻿using DevXuongMoc.Models;
-using Microsoft.AspNetCore.Http;
+﻿
+using Devxuongmoc.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Newtonsoft.Json;
 
-namespace DevXuongMoc.Controllers
+namespace Devxuongmoc.Controllers
 {
     public class CartsController : Controller, IActionFilter
     {
-        private readonly DevXuongMocSqlContext _context;
+        private readonly XuongMocContext _context;
         private List<Cart> carts = new List<Cart>();
-        public CartsController(DevXuongMocSqlContext context)
+        public CartsController(XuongMocContext context)
         {
             _context = context;
         }
