@@ -46,6 +46,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFkbWluVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Banners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEJhbm5lcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Banners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEJhbm5lcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Banners/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEJhbm5lcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Banners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEJhbm5lcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Banners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEJhbm5lcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,12 +86,152 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENhdGVnb3JpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Contacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENvbnRhY3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Contacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENvbnRhY3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Contacts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENvbnRhY3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Contacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENvbnRhY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENvbnRhY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXExvZ2luXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/News/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXE5ld3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/News/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXE5ld3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/News/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXE5ld3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/News/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXE5ld3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXE5ld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Partners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFBhcnRuZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Partners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFBhcnRuZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Partners/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFBhcnRuZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Partners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFBhcnRuZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Partners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFBhcnRuZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductExtensions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RFeHRlbnNpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductExtensions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RFeHRlbnNpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductExtensions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RFeHRlbnNpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductExtensions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RFeHRlbnNpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductExtensions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RFeHRlbnNpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductImages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RJbWFnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductImages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RJbWFnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductImages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RJbWFnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductImages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RJbWFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductImages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RJbWFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductMaterials/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RNYXRlcmlhbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductMaterials/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RNYXRlcmlhbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductMaterials/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RNYXRlcmlhbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductMaterials/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RNYXRlcmlhbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/ProductMaterials/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RNYXRlcmlhbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFByb2R1Y3RzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Areas/Admins/Views/Shared/Error.cshtml]
@@ -106,12 +266,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Views/Aboutus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXR1c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Views/Carts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Views/New/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Views/Partner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Minh Tuan/Documents/GitHub/phamminhtuan_ASP.NET/Devxuongmoc/Devxuongmoc/Views/Shared/Error.cshtml]
