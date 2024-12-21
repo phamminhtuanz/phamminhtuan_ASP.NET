@@ -6,11 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Devxuongmoc.Models;
+using X.PagedList;
+using Devxuongmoc.Areas.Admins.Controllers;
+using Devxuongmoc.Models;
 
-namespace Devxuongmoc.Areas.Admins.Controllers
+namespace DevXuongMoc.Areas.Admins.Controllers
 {
-    [Area("Admins")]
-    public class PartnersController : Controller
+    //[Area("Admins")]
+    public class PartnersController : BaseController
     {
         private readonly XuongMocContext _context;
 
@@ -20,20 +23,29 @@ namespace Devxuongmoc.Areas.Admins.Controllers
         }
 
         // GET: Admins/Partners
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string name, int page = 1)
         {
-            return View(await _context.Partners.ToListAsync());
+            // Số bản ghi trên một trang
+            int limit = 5;
+            var partner = await _context.Partners.OrderBy(c => c.Id).DefaultIfEmpty().ToPagedListAsync(page, limit);
+            // nếu có tham số name trên url
+            if (!String.IsNullOrEmpty(name))
+            {
+                partner = await _context.Partners.Where(c => c.Title.Contains(name)).OrderBy(c => c.Id).DefaultIfEmpty().ToPagedListAsync(page, limit);
+            }
+            ViewBag.keyword = name;
+            return View(partner);
         }
 
         // GET: Admins/Partners/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Partners == null)
             {
                 return NotFound();
             }
 
-            var partner = await _context.Partners
+            var partner = await _context.Partners.DefaultIfEmpty()
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (partner == null)
             {
@@ -58,6 +70,22 @@ namespace Devxuongmoc.Areas.Admins.Controllers
         {
             if (ModelState.IsValid)
             {
+                var files = HttpContext.Request.Form.Files;
+                if (files.Count() > 0 && files[0].Length > 0)
+                {
+                    var file = files[0];
+                    var FileName = file.FileName;
+                    //upload ảnh vào thư mục wwwroot\\images\\category
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\partners", FileName);
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                        partner.Logo = "/images/partners" + FileName;
+                        // Gán tên cho thuộc tính Icon
+
+                    }
+                }
+                partner.CreatedDate = DateTime.Now;
                 _context.Add(partner);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -68,7 +96,7 @@ namespace Devxuongmoc.Areas.Admins.Controllers
         // GET: Admins/Partners/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Partners == null)
             {
                 return NotFound();
             }
@@ -97,6 +125,22 @@ namespace Devxuongmoc.Areas.Admins.Controllers
             {
                 try
                 {
+                    var files = HttpContext.Request.Form.Files;
+                    if (files.Count() > 0 && files[0].Length > 0)
+                    {
+                        var file = files[0];
+                        var FileName = file.FileName;
+                        //upload ảnh vào thư mục wwwroot\\images\\category
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\partners", FileName);
+                        using (var stream = new FileStream(path, FileMode.Create))
+                        {
+                            file.CopyTo(stream);
+                            partner.Logo = "/images/partners" + FileName;
+                            // Gán tên cho thuộc tính Icon
+
+                        }
+                    }
+                    partner.UpdatedDate = DateTime.Now;
                     _context.Update(partner);
                     await _context.SaveChangesAsync();
                 }
@@ -119,7 +163,7 @@ namespace Devxuongmoc.Areas.Admins.Controllers
         // GET: Admins/Partners/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Partners == null)
             {
                 return NotFound();
             }
@@ -139,6 +183,10 @@ namespace Devxuongmoc.Areas.Admins.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (_context.Partners == null)
+            {
+                return Problem("Entity set 'DevXuongMocSqlContext.Partners'  is null.");
+            }
             var partner = await _context.Partners.FindAsync(id);
             if (partner != null)
             {
@@ -151,7 +199,7 @@ namespace Devxuongmoc.Areas.Admins.Controllers
 
         private bool PartnerExists(int id)
         {
-            return _context.Partners.Any(e => e.Id == id);
+            return (_context.Partners?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

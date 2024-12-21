@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Devxuongmoc.Models;
+using Devxuongmoc.Areas.Admins.Controllers;
+using Devxuongmoc.Models;
 
-namespace Devxuongmoc.Areas.Admins.Controllers
+namespace DevXuongMoc.Areas.Admins.Controllers
 {
-    [Area("Admins")]
-    public class ContactsController : Controller
+    //[Area("Admins")]
+    public class ContactsController : BaseController
     {
         private readonly XuongMocContext _context;
 
@@ -22,13 +24,15 @@ namespace Devxuongmoc.Areas.Admins.Controllers
         // GET: Admins/Contacts
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Contacts.ToListAsync());
+            return _context.Contacts != null ?
+                        View(await _context.Contacts.ToListAsync()) :
+                        Problem("Entity set 'DevXuongMocSqlContext.Contacts'  is null.");
         }
 
         // GET: Admins/Contacts/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Contacts == null)
             {
                 return NotFound();
             }
@@ -68,7 +72,7 @@ namespace Devxuongmoc.Areas.Admins.Controllers
         // GET: Admins/Contacts/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Contacts == null)
             {
                 return NotFound();
             }
@@ -119,7 +123,7 @@ namespace Devxuongmoc.Areas.Admins.Controllers
         // GET: Admins/Contacts/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Contacts == null)
             {
                 return NotFound();
             }
@@ -139,6 +143,10 @@ namespace Devxuongmoc.Areas.Admins.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (_context.Contacts == null)
+            {
+                return Problem("Entity set 'DevXuongMocSqlContext.Contacts'  is null.");
+            }
             var contact = await _context.Contacts.FindAsync(id);
             if (contact != null)
             {
@@ -151,7 +159,7 @@ namespace Devxuongmoc.Areas.Admins.Controllers
 
         private bool ContactExists(int id)
         {
-            return _context.Contacts.Any(e => e.Id == id);
+            return (_context.Contacts?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
